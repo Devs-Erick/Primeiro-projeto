@@ -1,0 +1,178 @@
+html, body{
+    height: 100%;
+    
+}
+
+body{
+    margin: 0%;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 25mm;
+    background-color: rgba(151, 0, 0, 0.884);
+    margin: 0%;
+    text-align: center;
+    color: aliceblue;
+}
+
+header{
+    text-align: center;
+    margin-top: 0;
+    height: 150px;
+    background-image: url(imagens/94366.jpg);
+    background-size: 100%;
+    background-position:center;
+}
+button{
+    background-color: rgba(73, 72, 72, 0.76);
+    align-items: center;
+    margin: 15px;
+    margin-top: 30px;
+    font-family: fantasy;
+    color: rgba(255, 255, 255, 0.623) ;
+    border-color: rgba(240, 248, 255, 0);
+    font-size: 10mm;
+    margin-left: 100px;
+    text-align: center;
+    height: 80px;
+    width: 300px;
+    border-radius: 20%;
+}
+.botao1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.botao1:hover{
+    color:rgba(126, 1, 1, 0.863) ;
+}
+
+.imagens-pc{
+    margin-top: 2%;
+    margin-left: 10%;
+    display: block;
+    justify-content: center;
+
+}
+
+.imagens-pc img{
+    border-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+  
+}
+
+.back{
+    font-size: 5mm;
+    color: rgb(145, 0, 0);
+    text-align: center;
+    background-color: rgb(229, 230, 231);
+}
+.back a{
+    margin: 20px;
+    text-align: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(145, 0, 0);
+}
+.back a:hover{
+    color: blue;
+}
+
+
+
+@media(max-width: 729px){
+    html, body{
+        height: 100%;
+    }
+    
+    body{
+        margin: 0%;
+        background-color: rgb(22, 22, 22);
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+    
+    }
+    h1{
+        margin-bottom: 10px;
+        font-size: 12mm;
+        background-color: rgba(151, 0, 0, 0.884);
+        margin: 0%;
+        text-align: center;
+        color: aliceblue;
+    }
+    
+    header{
+        height: 50px;
+        background-color: black;
+    }
+    button{
+        background-color: rgba(73, 72, 72, 0.76);
+        align-items: center;
+        margin: 0px;
+        margin-top: 15px;
+        font-family: fantasy;
+        color: rgba(255, 255, 255, 0.623) ;
+        border-color: rgba(240, 248, 255, 0);
+        font-size: 10px;
+        margin-left: 20px;
+        text-align: center;
+        height: 20px;
+        width: 140px;
+        border-radius: 10%;
+    }
+    .botao1{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .botao1:hover{
+        color:rgba(126, 1, 1, 0.863) ;
+    }
+    
+    .imagens-pc{
+        margin-top: 2%;
+        margin-left: 10%;
+        display: block;
+        justify-content: center;
+    
+    }
+    
+    .imagens-pc img{
+        border-color: aliceblue;
+        border-radius: 10px;
+        margin: 10px;
+        height: 90px;
+        width: 90px;
+      
+    }
+    
+   
+
+    .back{
+        height: 120px;
+        margin-top: 120px;
+        font-size: 14px;
+        color: rgb(145, 0, 0);
+        text-align: center;
+        background-color: rgb(229, 230, 231);
+    }
+    .back a{
+        display:block;
+        justify-content: space-between;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(145, 0, 0);
+    }
+    .back a:hover{
+        color: blue;
+    }
+}
+
+
